@@ -1,7 +1,7 @@
 // import users, {appConfig} from "./data";
 
 
-// .map() transforms each elements and produces a new array with each of the elements modified, depends on the implementation.
+
 
 const numbers : number[] = [1,2,3,4,5,6,7,8,9,10]
 const letters : string[] = ["a", "b", "c", "d", "e","f","g","h","i","j"]
@@ -9,6 +9,9 @@ const vowels: string[] = ["a", "e", "i", "o", "u"]
 const names : string[] = ["John", "Jane", "Doe", "Smith", "Emily", "Michael", "Sarah", "David", "Laura", "James"]
 
 
+
+
+// .map() transforms each elements and produces a new array with each of the elements modified, depends on the implementation.
 const multiply = numbers.map((number, Index:number) => { 
     return number * 2 
 }) 
